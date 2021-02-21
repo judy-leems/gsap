@@ -1,0 +1,13 @@
+
+# OS X
+.DS_Store*
+Icon?
+._*
+.git
+
+# npm
+node_modules
+package-lock.json
+*.log
+public/lib/js/main.js
+*.idea

@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+.dark {
+  text-align: left;
+  background: rgb(222, 38, 38);
+  color: #fff;
+  position: relative;
+}
+
+img {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.content {
+  padding: 9em 5em;
+  z-index: 1;
+  position: relative;
+}
+
+.content h2 {
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
+.content p {
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
