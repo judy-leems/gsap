@@ -1,0 +1,14 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+.panel {
+  height: 100vh;
+  background: pink;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}

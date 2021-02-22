@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat';
 }
 
-.div1, .div2 {
+.div1, .div2, .div3 {
   height: 100vh;
 }
 .div1 {
@@ -13,14 +13,19 @@ body {
 .div2 {
   background: salmon;
 }
+.div3 {
+  background: sandybrown
+}
 .square {
   width: 150px;
-  height: 150px;
+  height: 200px;
   background: blueviolet;
 }
 .square2 {
-  margin-top: 300px;
   width: 150px;
-  height: 150px;
-  background: blue;
+  height: 200px;
+  background: green;
+}
+.red {
+  background: red;
 }
